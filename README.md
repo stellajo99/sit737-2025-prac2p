@@ -1,7 +1,7 @@
-# Calculator API
+# Simple calculator web
 
 ## Overview
-This is a simple calculator API built using Node.js and Express. The API supports basic arithmetic operations such as addition, subtraction, multiplication, and division through HTTP GET requests.
+This is a simple calculator web page (API) built using Node.js and Express. The API supports basic arithmetic operations such as addition, subtraction, multiplication, and division through HTTP GET requests.
 
 ## Installation
 
