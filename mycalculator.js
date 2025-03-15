@@ -38,10 +38,10 @@ app.get("/add", (req,res)=>{
     }
 
     const result = add(n1, n2);
-    res.status(200).json({statuscocde:200, data: result});
+    res.status(200).json({statuscode:200, data: result});
     } catch(error) {
         console.log(error);
-        res.status(500).json({statuscocde:500, msg:error.toString()});
+        res.status(500).json({statuscode:500, msg:error.toString()});
     }
 });
 
@@ -62,10 +62,10 @@ app.get("/subtract", (req,res)=>{
     }
 
     const result = subtract(n1, n2);
-    res.status(200).json({statuscocde:200, data: result});
+    res.status(200).json({statuscode:200, data: result});
     } catch(error) {
         console.log(error);
-        res.status(500).json({statuscocde:500, msg:error.toString()});
+        res.status(500).json({statuscode:500, msg:error.toString()});
     }
 });
 
@@ -86,10 +86,10 @@ app.get("/multiply", (req,res)=>{
     }
 
     const result = multiply(n1, n2);
-    res.status(200).json({statuscocde:200, data: result});
+    res.status(200).json({statuscode:200, data: result});
     } catch(error) {
         console.log(error);
-        res.status(500).json({statuscocde:500, msg:error.toString()});
+        res.status(500).json({statuscode:500, msg:error.toString()});
     }
 });
 
@@ -114,10 +114,10 @@ app.get("/divide", (req,res)=>{
     }
 
     const result = divide(n1, n2);
-    res.status(200).json({statuscocde:200, data: result});
+    res.status(200).json({statuscode:200, data: result});
     } catch(error) {
         console.log(error);
-        res.status(500).json({statuscocde:500, msg:error.toString()});
+        res.status(500).json({statuscode:500, msg:error.toString()});
     }
 });
 
